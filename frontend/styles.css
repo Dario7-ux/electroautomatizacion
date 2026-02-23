@@ -1,0 +1,161 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #1e293b;
+  background: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.topbar {
+  background: #0f172a;
+  color: #fff;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+}
+
+.nav a.active,
+.nav a:hover {
+  color: #fff;
+  background: #1e293b;
+}
+
+.contacto {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.layout {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 2fr 1fr;
+  padding: 1.5rem;
+}
+
+main.container {
+  display: grid;
+  gap: 1rem;
+  padding: 1.2rem 0 2rem;
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.9rem;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.form {
+  display: grid;
+  gap: 0.8rem;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+}
+
+button {
+  background: #0f172a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mensaje {
+  min-height: 1.2rem;
+  margin: 0;
+  color: #0f766e;
+}
+
+.info-two-cols {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  padding: 0.8rem 0;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .info-two-cols {
+    grid-template-columns: 1fr;
+  }
+}

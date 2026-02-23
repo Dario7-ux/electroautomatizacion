@@ -1,0 +1,32 @@
+{
+  "empresa": {
+    "nombre": "Electromecánica Quito",
+    "descripcion": "Soluciones en metalmecánica, automatización y puertas automáticas para hogares e industrias.",
+    "telefono": "+593 99 000 0000",
+    "email": "contacto@electromecanica.com"
+  },
+  "servicios": [
+    {
+      "id": "srv-1",
+      "nombre": "Estructuras metálicas",
+      "descripcion": "Diseño, fabricación e instalación de estructuras metálicas para proyectos residenciales e industriales.",
+      "categoria": "Metalmecánica"
+    },
+    {
+      "id": "srv-2",
+      "nombre": "Automatización eléctrica",
+      "descripcion": "Implementación de tableros, control eléctrico y automatización de procesos.",
+      "categoria": "Eléctrico"
+    },
+    {
+      "id": "srv-3",
+      "nombre": "Puertas automáticas",
+      "descripcion": "Instalación y mantenimiento de puertas automáticas para garaje y accesos industriales.",
+      "categoria": "Automatización"
+    }
+  ],
+  "nosotros": {
+    "mision": "Brindar soluciones confiables y seguras en metalmecánica y electricidad.",
+    "vision": "Ser referentes en innovación y calidad técnica en Ecuador."
+  }
+}
